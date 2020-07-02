@@ -26,6 +26,21 @@
     100% {left: 88%;}
 }
 
+.sonic img{
+    position: absolute;
+    bottom: 55px;
+    animation-name: sonicrun;
+    animation-duration: 6s;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+
+}
+
+@keyframes sonicrun {
+    0%{right: 0%;}
+    100% {right: 88%;}
+}
+
 h2{
     color: white;
     text-transform: uppercase;
@@ -45,3 +60,4 @@ h2{
     0%{font-size: 2em;}
     100% {font-size: 4em; left: 40%;}
 }
+
